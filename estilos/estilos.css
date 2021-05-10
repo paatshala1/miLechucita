@@ -1,0 +1,607 @@
+:root {
+    --celesteBase: #5080da; /*f537f5 5080da*/
+    --fondoBase: #fcf0fe;
+    --fondoIntenso: rgba( 247, 210, 253, 0.6);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: fontBogart;
+    src: url(../fuentes/Bogart-Regular-trial.ttf);
+}
+
+
+.mainBody {
+    padding: 0px 50px;
+}
+
+#bodyMain {
+    background-color: var(--fondoBase);
+}
+
+#bodyNatacion {
+    background-color: var(--fondoBase);
+}
+
+header {
+    height: 90px;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#headerMain {
+    background-color: var(--fondoBase);
+}
+
+#headerNatacion {
+    background-color: var(--fondoBase);
+}
+
+h2 {
+    margin: 20px 10px 10px 0px;
+    font-family: fontBogart;
+    font-size: 2.5em;
+    color: #000;
+}
+
+p {
+    margin: 10px 10px 10px 0px;
+    color: #444;
+    font: 1.1em Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i {
+    color: #000;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+/* li {
+    background-color: var(--fondoBase);
+} */
+
+.conSaludo {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.conTitulo__h1 {
+    width: 500px;
+    margin: 70px 50px 35px 0px;
+    font-family: fontBogart; /*'Poiret One', cursive;*/
+    text-align: left;
+    font-size: 4em;
+    color: var(--celesteBase);
+    text-align: left;  
+}
+
+.conTitulo__subtitulo {
+    color: #444;
+    font: 1.1em Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conPortada {
+    min-width: 500px;
+    min-height: 500px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgba(150, 150, 150, 0.7);
+    position: sticky;
+    top: 200px;
+    right: 50px;
+    z-index: 90;
+    float: right;
+}
+
+
+#portadaPrincipal {
+    background-image: url(https://bn1303files.storage.live.com/y4m59I6vUFJo5pTwHSW8Vua_CaCqOX-XgPKIF6TmFYeJKWTq_ZqIx5vcn9mnYeN9ldilsDLNR97y5j0LUr08f5xSETU3ELc5ZlIcrrqwcEhGwC364ZXS6RyGadPKNk2L2owkqgpxn4-L2kVJC631hesw1YdreVvkbfGMyTmqwET-Yj7BGTkE02B0x10-oAg70nK?width=3456&height=2592&cropmode=none);
+}
+
+#portadaNatacion {
+    background-image: url(https://bn1303files.storage.live.com/y4mhvANLPCyx84VQvt77gnThRoZHyyiueU8B4_UF-ldT1WIxTdovlAoJR_XUeMmH4nhyox3wHY9OeSmUyAAx3rjqVtkiLy2bmWDVuB7yZESzUUX_W4PqegVCJvmavpaSZjpkVOhUUJUxa93mTH_Qz7A8NO5sU8isbrfD2Mp_S6xMiO5EvZ7Jw-U5Td5dRccZeMa?width=1833&height=1634&cropmode=none);
+    background-position:center;
+}
+
+#portadaCiclismo {
+    background-image: url(https://bn1303files.storage.live.com/y4m02_a_vJvQPcHCZFkCItmirM-zHEJIg-k9J8lUHk7mXmP_HazAgMAgl8bLKvwohSCGFuyvkk49dF8TGWev4VC-EDJi9obmbY5dpU2zG3qfL4VHuUoV36qLM9yioBykOBIMXZM8i2V8jiHQEWuL3LsUX_iMGe4bz9-krxwcjP9QZy22JCJ36FpfrFbKcKuy5-r?width=1242&height=2208&cropmode=none);
+    background-position:center;
+}
+
+#portadaBasket {
+    background-image: url(https://bn1303files.storage.live.com/y4mHyMvckwQ3aLQ4Yjg_5PQfYTycPgq8ULzkCCiCQgBc9bX0pjQLPcGISLNzv-5y9w-qPnE0BvvZHe6FrrKP-fWtNYQ38j9Fv5ZOc6GYxgL4-Z_gMRilvgzFpgn6aNcS7e0ilLZdUAAP0NlbVINOHqf20a6LHOiVLrcJ7iAzWzgBAGfFl5-KuOBXzUXF-Ybt2q9?width=3662&height=2744&cropmode=none);
+    background-position:center;
+}
+
+#portadaCaminata {
+    background-image: url(https://bn1303files.storage.live.com/y4md9-qu0iLHwASoFuySGJlFDYf81hodjaNhp8hgvP_Qv-oq2PR9v6tq3zGZ5VWJW1bdW6lGlm5g1kQf5FjzZm6MAnL5GcXXgg5mkKZNBE23dUB_V2d3HewVV2_rsGWdcVA5c5i4f720z3n2g4a5jMkJP26K2XNSHnxeVT0t2z2oAQL1mwuKN9jgwGta4bYfut7?width=4032&height=3024&cropmode=none);
+    background-position:center;
+}
+
+#portadaMuseo {
+    background-image: url(https://bn1303files.storage.live.com/y4m9Ez08ZaOP04L3WG74kWibFvNA37BtByCTPkSi3-k6hTufEbFx08ygZL6pK2j4lWdHQimNCREnljC3YQrjc6zr3a9X7siEttOSlEOirAiO9TCJNWPHhMuo5OTyLfUOHDi9650Mze7DCcMN97vZo-f-zlvb1EqP3kUQ5OdjFCFzG8HReh-0AO0jecJBAbYHrcr?width=4032&height=3024&cropmode=none);
+    /* background-position:center; */
+}
+
+#portadaEolicas {
+    background-image: url(../imagenes/IMG_0530.JPG);
+    background-size: cover;
+}
+
+#portadaCamping {
+    background-image: url(../imagenes/IMG_4751b.jpg);
+    background-size: cover;
+}
+
+#portadaTilapia {
+    background-image: url(https://bn1303files.storage.live.com/y4mRbpX2AWPpv78yl-gdib2HY7nlun221XuwOuSCRskZ1HB61kfjgTZ8e1okIEgT0TW5Gn-U4G8vSuDIVurkhd9HamCk_o6iCoSNlav_YL_7GNGZdITiGE8fC1e3oBtk5u-oRu8gXy37eBC-AF8xgfeComywbIwedT2Mt6oIfK07BNUq0NWWQBPKReH4kIkABmB?width=4032&height=3024&cropmode=none);
+    background-size: cover;
+}
+
+#portadaCoronado {
+    background-image: url(https://bn1303files.storage.live.com/y4m37zO-dcKhZNwdz7eCSD_yDV4DInLeIJkoI-QM1XGmwICXW6P4_2AGR3liy26zk793NjxWIP0MBgKFpELXDmyvnAqKyoTffijJcGo6NAxiL4THdyTByvRkhzAfl-snv9CTeUvB9LErkjYcMqWilm7wQ3PjXPiD7CzMQ9m3GutYOUso2TdUsfmRiSDzSHVjwZj?width=2798&height=3008&cropmode=none);
+    background-size: cover;
+}
+
+#portadaDanza {
+    background-image: url(../imagenes/Ballet.JPG);
+    background-size: cover;
+}
+
+#portadaVideoGames {
+    background-image: url(https://bn1303files.storage.live.com/y4mavQrtAmm6zD--dXyLS1_yDdQNd4keqFReLkRyWfWiXS73WSGMyRdtMAqpSTZGcUOab6FNp5M97igSC-noLoNEvEwY8mtxFqbfXaTDcDY6ewlsHuV01pblrFIZSnYSmQJebslgrrLfd2-j9T5zt9MTJ1w28CTKY9mF668-UF8MnpvcLiP-RTEflR1SPWEM15P?width=512&height=288&cropmode=none);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    width: 60%;
+    margin-top: 5px;
+    padding: 5px 5px 5px 50px;
+}
+
+.nav__ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__li {
+    position: relative;
+    flex-grow: 1;
+    background-color: var(--fondoBase);
+    /* text-align: right; */
+}
+
+
+.nav__a {
+    width: 100px;
+    height: 40;
+    padding-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.nav__a::before {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    position:absolute;
+    bottom: -1px;
+    background-color: var(--celesteBase);
+    transition: ease-in-out 0.5s;
+}
+
+nav ul ul {
+    margin-top: 10px;
+    display: none;
+    list-style: none;
+}
+
+nav ul ul li {
+    padding: 10px 0px;
+}
+
+nav ul > li:hover > ul {
+    display: block;
+}
+
+.nav__li:hover > a {
+    color:  var(--celesteBase);
+} 
+
+
+.nav__li:hover > a > i {
+    color:  var(--celesteBase);
+}    
+
+
+.card1 p {
+    position: relative;
+    top: 72px;
+    left: 15px;
+    color: white;
+    font-size: 1em;
+    font-family: fontBogart; 
+    line-height: 1.75em;
+}
+/*'Poiret One', cursive;*/
+
+#card1Main {
+    width: 300px;
+    height: 300px;
+    margin: 20px 10px 10px 10px;
+    padding: 1px 30px;
+    border: 1px solid white;
+    background: linear-gradient(-30deg, transparent 15%, rgba(206, 204, 204, 0.3));
+    position: relative;
+    top: -100px;
+    left: 200px;
+    border-radius: 50%;
+    z-index: 91;
+}
+
+#card1Natacion {
+    width: 300px;
+    height: 300px;
+    margin: 100px 10px 10px 10px;
+    padding: 1px 30px;
+    border: 1px solid white;
+    background: linear-gradient(-30deg, transparent 15%, rgba(206, 204, 204, 0.3));
+    position: relative;
+    top: -200px;
+    left: 1000px;
+    border-radius: 50%;
+    z-index: 91;
+}
+
+.conCirc {
+    display: grid;
+    max-width: 71%;
+    position: relative;
+    top: -70px;
+    grid-template-columns: repeat(2, 320px);
+    grid-template-rows: repeat(2, 160px);
+    /* background-color: blueviolet; */
+}
+
+
+.conCirc__circ:nth-child(1) {
+    background-color: #daaa50;
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.7;
+    /* animation: moverCirculo1 1s ease-in-out 0s infinite alternate-reverse; */
+    /* animation: agrandarCirculo1 1s ease-in-out 1s infinite alternate-reverse; */
+}
+
+@keyframes moverCirculo1 {
+    from {
+        justify-self: flex-end;
+        align-self: flex-end;
+    }
+
+    to {
+        justify-self: flex-start;
+        align-self: flex-start;
+    }
+}
+
+
+.conCirc__circ:nth-child(2) {
+    background-color: #aa50da;
+    justify-self: flex-end;
+    align-self: flex-start;
+    width: 170px;
+    height: 175px;
+    border-radius: 50%;
+    opacity: 0.7;
+    /* animation: moverCirculo2 1s cubic-bezier(0.075, 0.82, 0.165, 0.1) 200ms infinite alternate-reverse; */
+
+}
+
+@keyframes moverCirculo2 {
+    from {
+        justify-self: flex-end;
+        align-self: flex-start;
+    }
+
+    to {
+        justify-self: flex-start;
+        align-self: flex-end;
+    }
+}
+
+
+
+.conCirc__circ:nth-child(3) {
+    background-color: var(--celesteBase);
+    justify-self: center;
+    align-self: flex-end;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    opacity: 0.7;
+    /* animation: moverCirculo3 1s linear 200ms infinite alternate-reverse; */
+}
+
+@keyframes moverCirculo3 {
+    from {
+        justify-self: center;
+        align-self: flex-end;
+    }
+
+    to {
+        justify-self: flex-end;
+        align-self: flex-start;
+    }
+}
+
+
+.conCirc__circ:nth-child(4) {
+    background-color: #50daaa;
+    justify-self: center;
+    align-self: center;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    opacity: 0.7;
+    /* animation: moverCirculo4 1s cubic-bezier(0.755, 0.05, 0.855, 0.06) 100ms infinite alternate-reverse; */
+}
+
+@keyframes moverCirculo4 {
+    from {
+        justify-self: center;
+        align-self: center;
+    }
+
+    to {
+        justify-self: flex-start;
+        align-self: flex-start;
+    }
+}
+
+#circ1 {
+    position: relative;
+}
+
+#circ1 p {
+    position: relative;
+    left: -100px;
+}
+
+.agua {
+    color: var(--celesteBase);
+    text-shadow: 3px 3px 5px  var(--celesteBase);
+}    
+
+.resegna {
+    max-width: 55%;
+}    
+
+.resegna__p {
+    line-height: 1.6em;
+}
+
+.resegna__colage {
+    display: flex;
+    margin-bottom: 450px;
+    position: relative;
+}
+
+.resegna__colageImg img {
+    width: 220px;
+    height: 250px;
+    margin: 3px;
+    border: 10px solid #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px var(--celesteBase);
+    object-fit:cover;
+}
+
+.resegna__colageImg::before {
+    content: '';
+    width: 99%;
+    height: 99%;
+    border-radius: 8px;
+    position: absolute;
+    background-color: #000;
+    opacity: .3;
+}
+
+.resegna__colageImg:hover {
+    transform: rotate(360deg) scale(1.5);
+    rotate: initial;
+    z-index: 40;
+}
+
+.resegna__colageImg:hover::before {
+    opacity: 0;
+}
+
+
+#img1 {
+    rotate: -40deg;
+    position: absolute;
+    /* z-index: 10; */
+    top: 75px;
+    left: 55px;
+    transition: ease-in all 0.7s;
+}
+
+#img2 {
+    rotate: -20deg;
+    position: absolute;
+    /* z-index: 20; */
+    top: 65px;
+    left: 205px;
+    transition: ease-in all 0.7s;
+}
+
+#img3 {
+    rotate: 20deg;
+    position: absolute;
+    /* z-index: 15; */
+    top: 80px;
+    left: 335px;
+    transition: ease-in all 0.7s;
+
+}
+
+#img4 {
+    rotate: 40deg;
+    position: absolute;
+    /* z-index: 8; */
+    top: 90px;
+    left: 450px;
+    transition: ease-in all 0.7s;
+}
+
+#todo {
+    font-size: 1.5em;
+    color: var(--celesteBase);
+    text-shadow: 3px 3px 5px  #5580da;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.normalSize {
+    font-size: 100%;
+}
+
+.videosBody {
+    display: flex;
+    margin-top: 100px;
+}
+
+.conVideos {
+    position: relative;
+    left: 5%;
+}
+
+.conVideos__elem {
+    display: flex;
+    /* margin: 0px 20px 20px 0px; */
+}
+
+
+.conVideos__video {
+    position: relative;
+    align-self: flex-start;
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 3px;
+}
+
+
+.conVideos__detalle {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+.menuVideos {
+    align-self: start;
+    position: sticky;
+    top: 120px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: var(--celesteBase);
+    border-radius: 3px;
+}
+
+.menuVideos__lista {
+    list-style-type: none;    
+}
+
+.menuVideos__opciones {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 2;
+}
+
+
+.gridCont {
+    display: grid;
+    margin: 50px 50px;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    /* grid-auto-rows: 200px; */
+    grid-gap: 10px;
+}
+
+.gridCont__img {
+    object-fit: cover;
+    min-height: 100%;
+}
+
+#section2 {
+    margin-left: 50px;
+}
+
+.gridCont__img:nth-child(1) {
+    grid-column: 1 / 3;
+    position: relative;
+}
+
+
+.gridCont:nth-child(1)::before {
+    content: 'VIMOS LA HISTORIA DE LA RUEDA DE CARRETA Y LA TÉCNICA DE COLOR PARA PINTARLA';
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #444;
+    color: #fff;
+    opacity: .5;
+    z-index: 5;
+}
+
+.gridCont__img:nth-child(2) {
+    object-position: -20px;
+    
+}
+
+.gridCont__img:nth-child(3) {
+    grid-row: 2 / 4;
+}
+
+.gridCont__img:nth-child(6) {
+    grid-column: 2 / 4;
+}
+
+.gridCont__img:nth-child(7) {
+    grid-row: 4 / 6;
+}
+
+.gridCont__img:nth-child(8) {
+    grid-column: 2 / 4;
+    grid-row: span 2;
+}
+
+.gridCont__img:nth-child(10) {
+    object-position: 0px;
+}
+
+.gridCont__img:nth-child(11) {
+    grid-column: 2 / 4;
+}
