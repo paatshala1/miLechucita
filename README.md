@@ -1,1 +1,2 @@
-# La primera versión de la página de recuerdos históricos de la Lechucita
+# Primera página web...
+La primera versión de la página de recuerdos históricos de la Lechucita
